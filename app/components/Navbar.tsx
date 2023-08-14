@@ -1,17 +1,90 @@
 "use client"
 import React, {useState} from "react"
-import {useTheme} from "next-themes"
-import './Navbar.css';
 
+function HomeButton() {
+    const [active, set] = useState(false); 
 
-function NavButton(props: String) {
     function handleClick() {
-        "take to " + props
+        set(false)
+        "change to Home page"
+    }
+
+    function mouseEnterLeave() {
+        set(!active)
     }
 
     return (
-        <button onClick={handleClick}>
-            {props}
+        <button className={active ? "text-purple-500": "text-black"} 
+        onClick={handleClick} 
+        onMouseEnter={mouseEnterLeave}
+        onMouseLeave={mouseEnterLeave}>
+            HOME
+        </button>
+    )
+}
+
+function AboutButton() {
+    const [active, set] = useState(false); 
+
+    function handleClick() {
+        set(false)
+        "change to Home page"
+    }
+
+    function mouseEnterLeave() {
+        set(!active)
+    }
+
+    return (
+        <button className={active ? "text-purple-500": "text-black"} 
+        onClick={handleClick} 
+        onMouseEnter={mouseEnterLeave}
+        onMouseLeave={mouseEnterLeave}>
+            ABOUT
+        </button>
+    )
+}
+
+function PortButton() {
+    const [active, set] = useState(false); 
+
+    function handleClick() {
+        set(false)
+        "change to Home page"
+    }
+
+    function mouseEnterLeave() {
+        set(!active)
+    }
+
+    return (
+        <button className={active ? "text-purple-500": "text-black"} 
+        onClick={handleClick} 
+        onMouseEnter={mouseEnterLeave}
+        onMouseLeave={mouseEnterLeave}>
+            PORTFOLIO
+        </button>
+    )
+}
+
+function ContactButton() {
+    const [active, set] = useState(false); 
+
+    function handleClick() {
+        set(false)
+        "change to Home page"
+    }
+
+    function mouseEnterLeave() {
+        set(!active)
+    }
+
+    return (
+        <button className={active ? "text-purple-500": "text-black"} 
+        onClick={handleClick} 
+        onMouseEnter={mouseEnterLeave}
+        onMouseLeave={mouseEnterLeave}>
+            CONTACT
         </button>
     )
 }
@@ -41,12 +114,11 @@ const NAV_ITEMS: Array<NavItem> = [
 ]
 
 const Navbar = () => {
-    const {systemTheme, theme, setTheme} = useTheme()
-    const currentTheme = theme === "system" ? systemTheme : theme
-    const [navbar, setNavbar] = useState(false)
     return (
-         <div className="Navbar"> 
-            {NavButton("HOME")} {NavButton("ABOUT")} {NavButton("PORTFOLIO")} {NavButton("CONTACT")}
+         <div className=""> 
+            <div className="h-14 flex items-center justify-center space-x-28">
+                {HomeButton()} {AboutButton()} {PortButton()} {ContactButton()}
+            </div>
         </div>
     )
 }
