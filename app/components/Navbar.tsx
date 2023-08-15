@@ -1,7 +1,8 @@
 "use client"
 import React, {useState} from "react"
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
-function HomeButton() {
+/* function HomeButton() {
     const [active, set] = useState(false); 
 
     function handleClick() {
@@ -89,30 +90,6 @@ function ContactButton() {
     )
 }
 
-interface NavItem {
-    label: string
-    page: string
-}
-
-const NAV_ITEMS: Array<NavItem> = [
-    {
-        label: "HOME",
-        page: "home",
-    },
-    {
-        label: "ABOUT",
-        page: "about",
-    },
-    {
-        label: "PORTFOLIO",
-        page: "portfolio",
-    },
-    {
-        label: "CONTACT",
-        page: "contact",
-    }
-]
-
 const Navbar = () => {
     return (
          <div className=""> 
@@ -123,4 +100,25 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar */
+
+export default function Navbar() {
+    return (
+        <nav>
+            <ul>
+                <li>
+                    <Link to="/">Home</Link>
+                </li>
+                <li>
+                    <Link to="/">About</Link>
+                </li>
+                <li>
+                    <Link to="/">Portfolio</Link>
+                </li>
+                <li>
+                    <Link to="/">Contact</Link>
+                </li>
+            </ul>
+        </nav>
+    )
+}

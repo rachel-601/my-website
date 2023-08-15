@@ -1,10 +1,10 @@
-import Image from 'next/image'
-import background from '/Users/rachelshi/my-website/src/images/background.jpg'
 
-export default function Home() {
+import Home from './pages/home'
+
+export default function HomePage() {
   return (
     <main>
-      <h1 className ="text-2xl">Hello World</h1>
+      <Home/>
     </main>
   )
 }
