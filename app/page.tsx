@@ -1,10 +1,11 @@
 
+import Layout from './layout'
 import Home from './pages/home'
 
 export default function HomePage() {
   return (
-    <main>
-      <Home/>
-    </main>
+      <div>
+        <Home/>
+      </div>
   )
 }

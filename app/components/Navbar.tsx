@@ -2,7 +2,7 @@
 import React, {useState} from "react"
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
-/* function HomeButton() {
+function HomeButton() {
     const [active, set] = useState(false); 
 
     function handleClick() {
@@ -15,7 +15,7 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
     }
 
     return (
-        <button className={active ? "text-purple-500": "text-black"} 
+        <button className={active ? "text-indigo-300": "text-black"} 
         onClick={handleClick} 
         onMouseEnter={mouseEnterLeave}
         onMouseLeave={mouseEnterLeave}>
@@ -37,7 +37,7 @@ function AboutButton() {
     }
 
     return (
-        <button className={active ? "text-purple-500": "text-black"} 
+        <button className={active ? "text-indigo-300": "text-black"} 
         onClick={handleClick} 
         onMouseEnter={mouseEnterLeave}
         onMouseLeave={mouseEnterLeave}>
@@ -59,7 +59,7 @@ function PortButton() {
     }
 
     return (
-        <button className={active ? "text-purple-500": "text-black"} 
+        <button className={active ? "text-indigo-300": "text-black"} 
         onClick={handleClick} 
         onMouseEnter={mouseEnterLeave}
         onMouseLeave={mouseEnterLeave}>
@@ -81,7 +81,7 @@ function ContactButton() {
     }
 
     return (
-        <button className={active ? "text-purple-500": "text-black"} 
+        <button className={active ? "text-indigo-300": "text-black"} 
         onClick={handleClick} 
         onMouseEnter={mouseEnterLeave}
         onMouseLeave={mouseEnterLeave}>
@@ -100,25 +100,5 @@ const Navbar = () => {
     )
 }
 
-export default Navbar */
+export default Navbar
 
-export default function Navbar() {
-    return (
-        <nav>
-            <ul>
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="/">About</Link>
-                </li>
-                <li>
-                    <Link to="/">Portfolio</Link>
-                </li>
-                <li>
-                    <Link to="/">Contact</Link>
-                </li>
-            </ul>
-        </nav>
-    )
-}
