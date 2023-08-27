@@ -14,7 +14,7 @@ function HomeButton() {
     }
 
     return (
-        <button className={active ? "text-purple-500": "text-black"} 
+        <button className={active ? "text-indigo-300": "text-black"} 
         onClick={handleClick} 
         onMouseEnter={mouseEnterLeave}
         onMouseLeave={mouseEnterLeave}>
@@ -36,7 +36,7 @@ function AboutButton() {
     }
 
     return (
-        <button className={active ? "text-purple-500": "text-black"} 
+        <button className={active ? "text-indigo-300": "text-black"} 
         onClick={handleClick} 
         onMouseEnter={mouseEnterLeave}
         onMouseLeave={mouseEnterLeave}>
@@ -58,7 +58,7 @@ function PortButton() {
     }
 
     return (
-        <button className={active ? "text-purple-500": "text-black"} 
+        <button className={active ? "text-indigo-300": "text-black"} 
         onClick={handleClick} 
         onMouseEnter={mouseEnterLeave}
         onMouseLeave={mouseEnterLeave}>
@@ -80,7 +80,7 @@ function ContactButton() {
     }
 
     return (
-        <button className={active ? "text-purple-500": "text-black"} 
+        <button className={active ? "text-indigo-300": "text-black"} 
         onClick={handleClick} 
         onMouseEnter={mouseEnterLeave}
         onMouseLeave={mouseEnterLeave}>
@@ -88,30 +88,6 @@ function ContactButton() {
         </button>
     )
 }
-
-interface NavItem {
-    label: string
-    page: string
-}
-
-const NAV_ITEMS: Array<NavItem> = [
-    {
-        label: "HOME",
-        page: "home",
-    },
-    {
-        label: "ABOUT",
-        page: "about",
-    },
-    {
-        label: "PORTFOLIO",
-        page: "portfolio",
-    },
-    {
-        label: "CONTACT",
-        page: "contact",
-    }
-]
 
 const Navbar = () => {
     return (
@@ -124,3 +100,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+
