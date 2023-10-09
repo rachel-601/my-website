@@ -8,11 +8,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'home-page-bg': "url('https://i.postimg.cc/fyRY79Rp/IMG-3999.jpg')"
       },
-    },
-  },
-  plugins: [],
+      icon: {
+        'menu-icon': "url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.stickpng.com%2Fimg%2Ficons-logos-emojis%2Fmenu-icons%2Fmenu-icon&psig=AOvVaw3U9knnTB4-vcLTmqZqpLul&ust=1693685590593000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIiU4tGcioEDFQAAAAAdAAAAABAE')"
+      }
+    }
+  }
 }
