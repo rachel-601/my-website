@@ -3,7 +3,7 @@
 
 export default function Home() {
     return (
-        <div className="bg-home-page-bg md:h-full md:w-full h-full w-screen bg-cover bg-center">
+        <div className="bg-home-page-bg md:h-full md:w-full w-screen bg-cover bg-center">
             <div className="lg:py-80 py-72">
                 <h2 className="md:flex items-center justify-center text-white text-xl md:text-2xl font-light text-center">
                     hi, my name is
