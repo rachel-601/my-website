@@ -6,6 +6,9 @@ export default function Projects() {
       <header >
         This is the projects page.
       </header>
+      <body>
+        <h1>my projects!</h1>
+      </body>
     </div>
   );
 }

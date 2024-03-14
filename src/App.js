@@ -5,6 +5,8 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Navbar from './pages/components/Navbar';
+import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -13,11 +15,17 @@ function App() {
 
       </header>
       <body>
-        <Navbar />
-        <Home />
-        <About />
-        <Projects />
-        <Contact />
+        <Router>
+          <nav>
+            <Navbar/>
+          </nav>
+          <Routes>
+            <Route path='/' exact element={<Home/>} />
+            <Route path='/about' exact element={<About/>} />
+            <Route path='/projects' exact element={<Projects/>} />
+            <Route path='/contact' exact element={<Contact/>} />
+          </Routes>
+        </Router>
       </body>
     </div>
   );
