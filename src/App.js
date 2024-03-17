@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Navbar from './pages/components/Navbar';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Footer from './pages/components/Footer';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path='/contact' exact element={<Contact/>} />
           </Routes>
         </Router>
+        <Footer />
       </body>
     </div>
   );
