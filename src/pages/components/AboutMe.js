@@ -10,9 +10,9 @@ export default function AboutMe({title, blurb, pos, imgs}) {
         <h2>{title}</h2>
         <p>{blurb}</p>
         <ul>
-            <li><img src={imgs.one} alt='Image 1'/></li>
-            <li><img src={imgs.two} alt='Image 2'/></li>
-            <li><img src={imgs.three} alt='Image 3'/></li>
+            <li><img src={imgs.one} alt={`"Picture showing ${title}"`} width={200}/></li>
+            <li><img src={imgs.two} alt={`"Picture showing ${title}"`} width={200}/></li>
+            <li><img src={imgs.three} alt={`"Picture showing ${title}"`} width={200}/></li>
         </ul>
       </body>
     </div>
