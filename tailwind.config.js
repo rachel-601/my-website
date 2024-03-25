@@ -14,6 +14,14 @@ module.exports = {
         'black': '#000000',
         'hover': '#CFC0E6',
       },
+      extend: {
+        letterSpacing: {
+          widest: '0.2em',
+        },
+        spacing: {
+          'photo': '25rem',
+        }
+      },
     },
     plugins: [],
   };
