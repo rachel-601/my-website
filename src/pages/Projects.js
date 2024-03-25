@@ -6,9 +6,9 @@ import trackIMG from '../images/track.png';
 
 export default function Projects() {
   return (
-    <div className="projects">
+    <section id="projects" className="projects">
       <header >
-        This is the projects page.
+      
       </header>
       <body>
         <h1>my projects!</h1>
@@ -39,6 +39,6 @@ export default function Projects() {
           </li>
         </ul>
       </body>
-    </div>
+    </section>
   );
 }

@@ -6,7 +6,7 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Navbar from './pages/components/Navbar';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 import Footer from './pages/components/Footer';
 
 function App() {
@@ -15,8 +15,15 @@ function App() {
       <header className="App-header">
 
       </header>
-      <body>
-        <Router>
+      <body class="bg-gradient-to-b from-dark via-medium via-middle to-light">
+        <BrowserRouter>
+          <Navbar/>
+          <Home />
+          <About/>
+          <Projects/>
+          <Contact/>
+        </BrowserRouter>
+        {/* <Router>
           <nav>
             <Navbar/>
           </nav>
@@ -26,7 +33,7 @@ function App() {
             <Route path='/projects' exact element={<Projects/>} />
             <Route path='/contact' exact element={<Contact/>} />
           </Routes>
-        </Router>
+        </Router> */}
         <Footer />
       </body>
     </div>

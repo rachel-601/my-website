@@ -4,6 +4,16 @@ module.exports = {
       "./src/**/*.{js,ts,jsx,tsx}",
       "./public/index.html",
     ],
-    theme: {},
+    theme: {
+      colors: {
+        'dark': '#131019',
+        'medium': '#312744',
+        'middle': '#3F3357',
+        'light': '#5A4B78',
+        'white': '#FFFFFF',
+        'black': '#000000',
+        'hover': '#CFC0E6',
+      },
+    },
     plugins: [],
   };

@@ -15,9 +15,9 @@ import szaIMG from '../images/sza.JPG';
 
 export default function About() {
   return (
-    <div className="about">
+    <section id="about" className="about">
       <header >
-        This is the about page.
+        
       </header>
       <body>
         <h1>a bit about me!</h1>
@@ -56,6 +56,6 @@ export default function About() {
           </li>
         </ul>
       </body>
-    </div>
+    </section>
   );
 }

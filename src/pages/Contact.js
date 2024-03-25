@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div className="contact">
+    <section id="contact" className="contact">
       <header >
-        This is the Contact page.
+        
       </header>
       <body>
         <h1>contact me!</h1>
@@ -20,6 +20,6 @@ export default function Contact() {
           </li>
         </ol>
       </body>
-    </div>
+    </section>
   );
 }
