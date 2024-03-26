@@ -20,8 +20,8 @@ export default function About() {
         
       </header>
       <body>
-        <h1>a bit about me!</h1>
-        <ul>
+        <h1 className="text-3xl p-10">a bit about me!</h1>
+        <ul className="">
           <li>
             <AboutMe 
               title={"FOODIE"} 

@@ -20,6 +20,8 @@ module.exports = {
         },
         spacing: {
           'photo': '25rem',
+          'about_reg': '200px',
+          'about_small': '10px',
         }
       },
     },
