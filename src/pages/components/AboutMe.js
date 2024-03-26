@@ -15,14 +15,14 @@ export default function AboutMe({title, blurb, pos, imgs}) {
         </group>
         <group className="shadow-lg shadow-dark">
           <ul className="flex">
-              <li className="h-about_reg overflow-hidden">
-                <img src={imgs.one} alt={`"Picture showing ${title}"`} className="w-about_reg h-about_reg object-cover"/>
+              <li className="h-img_reg overflow-hidden">
+                <img src={imgs.one} alt={`"Picture showing ${title}"`} className="w-img_reg h-img_reg object-cover"/>
               </li>
-              <li className="h-about_reg overflow-hidden">
-                <img src={imgs.two} alt={`"Picture showing ${title}"`} className="w-about_reg h-about_reg object-cover"/>
+              <li className="h-img_reg overflow-hidden">
+                <img src={imgs.two} alt={`"Picture showing ${title}"`} className="w-img_reg h-img_reg object-cover"/>
               </li>
-              <li className="h-about_reg overflow-hidden">
-                <img src={imgs.three} alt={`"Picture showing ${title}"`} className="w-about_reg h-about_reg object-cover"/>
+              <li className="h-img_reg overflow-hidden">
+                <img src={imgs.three} alt={`"Picture showing ${title}"`} className="w-img_reg h-img_reg object-cover"/>
               </li>
           </ul>
         </group>
