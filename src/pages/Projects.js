@@ -3,6 +3,7 @@ import Project from './components/Project';
 import canvifyIMG from '../images/canvify.png';
 import thriveIMG from '../images/thrive.png';
 import trackIMG from '../images/track.png';
+import equalIMG from '../images/equal.png';
 
 export default function Projects() {
   return (
@@ -20,6 +21,7 @@ export default function Projects() {
                 stack={"React.js, Cohere API, HTML, CSS"}
                 descr={"Website where users speaking different languages can ask and answer health and wellness questions with easy translation."}
                 img={thriveIMG}
+                link={"https://devpost.com/software/thrivethread"}
               />
             </li>
             <li>
@@ -28,6 +30,7 @@ export default function Projects() {
                 stack={"React.js, TypeScript, HTML, CSS"}
                 descr={"Chrome extension that scrapes the data from the Canvas course management system and compiles important information together. "}
                 img={canvifyIMG}
+                link={"https://devpost.com/software/canvify"}
               />
             </li>
             <li>
@@ -36,6 +39,16 @@ export default function Projects() {
                 stack={"Java, Swing, JSON, JUnit"}
                 descr={"A fitness tracker app that stores a user's running history and can calculate statistics relating to speed, duration, and length of the runs."}
                 img={trackIMG}
+                link={"https://github.com/rachel-601/TrackStar"}
+              />
+            </li>
+            <li>
+              <Project 
+                name={"EqualWrites"}
+                stack={"React.js, Python, HTML, CSS"}
+                descr={"Application that analyzes the user's writing and returns percentages to indicate detected biases to help improve accessibility."}
+                img={equalIMG}
+                link={"https://devpost.com/software/equal-writes"}
               />
             </li>
           </ul>

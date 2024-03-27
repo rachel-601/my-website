@@ -31,9 +31,9 @@ export default function Navbar() {
         <img alt='logo'/>
         <ol className="flex space-x-5">
             <li><Link to="#home" className={`"text-medium"`}>Home</Link></li>
-            <li><Link to="#about" className="hover:text-hover">About</Link></li>
-            <li><Link to="#projects" className="hover:text-hover">Projects</Link></li>
-            <li><Link to="#contact" className="hover:text-hover">Contact</Link></li>
+            <li><Link to="#about" className="transition ease-in-out delay-100 hover:text-hover">About</Link></li>
+            <li><Link to="#projects" className="transition ease-in-out delay-100 hover:text-hover">Projects</Link></li>
+            <li><Link to="#contact" className="transition ease-in-out delay-100 hover:text-hover">Contact</Link></li>
         </ol>
       </div>
     </nav>
