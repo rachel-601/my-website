@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <div role="footer" className='p-5'>
+    <div role="footer" className='p-5 text-center'>
         <text className="">
             rachel shi 2024
         </text>

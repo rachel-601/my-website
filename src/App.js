@@ -11,11 +11,11 @@ import Footer from './pages/components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="">
+      <header className="">
 
       </header>
-      <body class="bg-gradient-to-b from-dark via-medium via-middle via-light via-middle to-medium">
+      <body className="p-0 m-0 bg-gradient-to-b from-dark via-medium via-middle via-light via-middle to-medium overflow-x-hidden">
         <BrowserRouter>
           <Navbar/>
           <Home />

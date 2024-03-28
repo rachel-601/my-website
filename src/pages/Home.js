@@ -7,15 +7,15 @@ export default function Home() {
       <header >
         
       </header>
-      <body className="flex px-20 w-screen items-center">
-        <group className="text-left h-40 pr-5">
-          <h1 className="text-7xl pb-5 tracking-widest">
+      <body className="flex px-10 md:px-20 w-screen justify-center items-center">
+        <group className="text-left pr-5 w-auto">
+          <h1 className="sm:text-7xl text-7xl pb-5 tracking-widest">
             rachel shi
           </h1>
           <p className='tracking-wider'>developer • vancouver foodie • runner • hiker • show binger • learner • snowboarder • gym goer • frisbee player • reader • cook • baker</p>
         </group>
-        <group className="flex h-photo overflow-clip items-center">
-          <img className="" src= {mainIMG} alt='Photo of Rachel in Stanley Park' width={400}/>
+        <group className="hidden md:flex h-mdh w-mdw overflow-clip items-center">
+          <img className="md:w-mdw object-cover" src= {mainIMG} alt='Photo of Rachel in Stanley Park'/>
         </group>
       </body>
     </section>

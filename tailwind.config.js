@@ -14,6 +14,7 @@ module.exports = {
         'black': '#000000',
         'hover': '#CFC0E6',
       },
+      
       extend: {
         letterSpacing: {
           widest: '0.2em',
@@ -22,7 +23,12 @@ module.exports = {
           'photo': '25rem',
           'img_reg': '200px',
           'img_small': '10px',
-        }
+          'mdw': '400px',
+          'mdh': '450px',
+        },
+        screens: {
+          'md': '780px',
+        },
       },
     },
     plugins: [],

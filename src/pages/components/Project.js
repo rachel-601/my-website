@@ -6,7 +6,7 @@ export default function Project({name, stack, descr, img, link}) {
       <header >
 
       </header>
-      <body className="flex justify-center items-center">
+      <body className="lg:flex justify-center">
         <div className='h-img_reg w-img_reg overflow-hidden shadow-lg shadow-dark'>
           <a href={link} target='_blank'>
             <img src={img} alt='Image of project' className="w-img_reg h-img_reg object-cover "/>
