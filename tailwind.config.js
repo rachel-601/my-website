@@ -31,5 +31,8 @@ module.exports = {
         },
       },
     },
+    fontFamily: {
+      'league-spartan': ['League Spartan', 'sans-serif'],
+    },
     plugins: [],
   };

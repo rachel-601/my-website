@@ -9,9 +9,9 @@ export default function Contact() {
       <header >
         
       </header>
-      <body className="px-10 md:px-20 w-screen">
-        <h1 className="text-5xl md:text-7xl text-right pb-5 tracking-widest">contact me!</h1>
-        <ol className="flex flex-row-reverse items-center gap-6 pr-10">
+      <body className="px-10 md:px-20 2xl:px-40 w-screen">
+        <h1 className="text-4xl sm:text-7xl text-center sm:text-right pb-5 tracking-widest">contact me!</h1>
+        <ol className="flex justify-center sm:justify-end items-center gap-6 sm:pr-10">
           <li >
             <a href='https://www.linkedin.com/in/rachel-shi-04b52720a/' target='_blank' >
               <FaLinkedin size={50} onMouseOver={({target})=>target.style.color='#CFC0E6'} onMouseOut={({target})=>target.style.color='white'}/>

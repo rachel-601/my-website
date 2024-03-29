@@ -13,7 +13,7 @@ export default function Projects() {
       </header>
       <div className="flex justify-center">
        <body className='w-4/5'> 
-        <h1 className="text-3xl p-10 pt-20 text-center">my projects!</h1>
+        <h1 className="text-4xl p-10 pt-20 text-center">my projects!</h1>
           <ul className="grid sm:grid-cols-2 gap-10 lg:gap-4">
             <li>
               <Project 

@@ -13,6 +13,7 @@ import weekIMG from '../images/weeknd.JPG';
 import coldIMG from '../images/coldplay.jpg';
 import szaIMG from '../images/sza.JPG';
 
+
 export default function About() {
   return (
     <section id="about" className="about">
@@ -20,7 +21,7 @@ export default function About() {
         
       </header>
       <body>
-        <h1 className="text-3xl p-10 pt-20 text-center">a bit about me!</h1>
+        <h1 className="text-4xl p-10 pt-20 text-center">a bit about me!</h1>
         <ul className="">
           <li>
             <AboutMe 
