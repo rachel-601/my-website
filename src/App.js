@@ -5,7 +5,6 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Navbar from './pages/components/Navbar';
-import './App.css';
 import { BrowserRouter as BrowserRouter } from 'react-router-dom';
 import Footer from './pages/components/Footer';
 
